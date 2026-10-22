@@ -1,0 +1,2 @@
+# Optional A4 PDF export only; SVG generation uses the Python standard library.
+reportlab>=4.0,<5.0

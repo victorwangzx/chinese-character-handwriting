@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chinese Character Handwriting"
+  short_description: "Chinese stroke-order diagrams and optional printable worksheets"
+  default_prompt: "Use $chinese-character-handwriting to teach me how to write 财, one stroke at a time."

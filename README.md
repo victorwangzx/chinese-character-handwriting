@@ -1,4 +1,4 @@
-# Chinese Character Handwriting · v3.0.0
+# Chinese Character Handwriting · v3.0.1
 
 A reusable Agent Skill for learning to write Chinese characters, one stroke at a time. Uses **regular script (kaishu)** and **tian zi ge** practice grids.
 
@@ -106,7 +106,7 @@ python3 scripts/check_release.py
 python3 -m unittest discover -s tests
 ```
 
-以上核心检查不需pip依赖，包含数据SHA256、连续步骤、样式、无未来笔画、缺字及非空目录保护。PNG/PDF端到端另按上述命令运行并渲染查看；GitHub Actions配置提供三平台核心检查。CI尚未在GitHub实际运行时不能宣称已通过。
+以上核心检查不需pip依赖，包含数据SHA256、连续步骤、样式、无未来笔画、缺字及非空目录保护。PNG/PDF端到端另按上述命令运行并渲染查看；`.github/validate.yml.example`提供三平台核心检查模板；将其复制为`.github/workflows/validate.yml`后可启用（提交工作流需相应GitHub权限）。CI尚未在GitHub实际运行时不能宣称已通过。
 
 ## 许可证与贡献
 
@@ -115,6 +115,8 @@ python3 -m unittest discover -s tests
 可反馈具体汉字、期望笔顺的权威链接、出现问题的步骤和运行环境；提交改动前运行核心检查。请勿提交孩子个人信息、node_modules、字体文件或本机绝对路径。无遥测、无上传、无自动下载。维护者：Victor使用Codex制作。
 
 ## 修订记录
+
+- v3.0.1（2026-10-22）：CI以可手动启用的模板分发，支持不具备workflow写权限的发布环境。
 
 - v3.0.0（2026-10-22）：公开名称改为Chinese Character Handwriting，技术标识改为`chinese-character-handwriting`，增加英文简介、安装速览与平台边界。技术调用名更改，采用主版本升级；教学图配色、笔顺与打印规则保持。
 

@@ -1,0 +1,9 @@
+{
+  "name": "chinese-character-handwriting",
+  "version": "3.0.1",
+  "private": true,
+  "description": "Optional high-resolution PNG exporter for the Agent Skill",
+  "license": "MIT",
+  "engines": {"node": ">=22"},
+  "dependencies": {"sharp": "0.35.5"}
+}

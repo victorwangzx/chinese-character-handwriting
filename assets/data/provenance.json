@@ -1,0 +1,13 @@
+{
+  "source": "https://api.github.com/repos/skishore/makemeahanzi",
+  "commit": "bddc96d41bef78427ed0e034e9f7e31d71fd1b92",
+  "sha256": {
+    "graphics.txt": "a28c478b5178e98f67f510b2d52fde08a69dc664654ef43498253b9b764d46ee",
+    "COPYING": "26fa6b699b32401de4b75a4af574c2e0a99b3df6cb12df9313d257ee4634359c",
+    "APL/big5/ARPHICPL.TXT": "57e2289236e3546bf114fb1023a725ca37ce3403c60a7f24eb8a7891c4731b07",
+    "APL/english/ARPHICPL.TXT": "3a5e90c0957524a89e48203febcd4492ca4393678abaa7e5b4d70f3ff32b386d",
+    "APL/gb/ARPHICPL.TXT": "0f4119eb7a7bbbb1326b7a904f5bc1aa5d368ad1facc6bf9b8b2a410e414df47",
+    "APL/zh_CN.UTF-8/ARPHICPL.TXT": "1038e6570c1454456cae551164d0a8e41c638fb4841ff9f37d257307e5febbd4",
+    "APL/zh_TW.UTF-8/ARPHICPL.TXT": "7f709381dd578588d8c5b32ee2c9fa2a4995b991ed120605075fe6d2c7951e2a"
+  }
+}
